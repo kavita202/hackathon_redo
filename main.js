@@ -61,13 +61,13 @@ async function getData(difficulty) {
         answers.push(data.results[i].correct_answer)
     }
             var btn = document.createElement("BUTTON");   
-            btn.setAttribute("type", "button")
+            btn.setAttribute("type", "submit")
             btn.innerHTML = "Submit";              
             form.appendChild(btn); 
     
      
     
-    btn.addEventListener("click", Results)
+    btn.addEventListener("submit", Results)
     let score;
     let message = document.createElement("h4")
     message.setAttribute("id","message")
