@@ -49,9 +49,9 @@ async function getData(difficulty) {
         var responseHTML = ''
         responses.forEach(function(response) {
             responseHTML += `<input type="radio" value=${response} name="${i}" required="required">`
-            responseHTML += response + '<br>'
+            responseHTML += response + '<br><br>'
         })
-        ans.innerHTML = responseHTML; 
+        ans.innerHTML = `${responseHTML}`
         var feedback = document.createElement("p")
         feedback.setAttribute("id", `feedback${i}`)
         container.appendChild(qu);
@@ -66,8 +66,9 @@ async function getData(difficulty) {
             form.appendChild(btn); 
     
      
-    
-    btn.addEventListener("submit", Results)
+    function handleForm(event) {event.preventDefault();}
+    form.addEventListener("submit", handleForm)
+    form.addEventListener("submit", Results)
     let score;
     let message = document.createElement("h4")
     message.setAttribute("id","message")
