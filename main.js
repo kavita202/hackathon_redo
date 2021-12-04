@@ -40,9 +40,11 @@ async function getData(difficulty) {
     form.setAttribute("id", "form")
     empty.appendChild(form)
         for (let i=0; i < 10; i++){
-        let container = document.createElement("label")
-        // let qu = document.createElement("p")    
+        let container = document.createElement("label")   
         let qu = document.createElement('p');
+        qu.style.fontWeight = "600"
+        qu.style.paddingLeft = "3%"
+        qu.style.textIndent = '-3.4%'
         qu.innerText = htmlDecode(`${i+1}. ${data.results[i].question}`)
         let ans = document.createElement("p")
         var responses = ['True', 'False']
@@ -52,6 +54,7 @@ async function getData(difficulty) {
             responseHTML += response + '<br><br>'
         })
         ans.innerHTML = `${responseHTML}`
+        ans.style.margin = "2.5%"
         var feedback = document.createElement("p")
         feedback.setAttribute("id", `feedback${i}`)
         container.appendChild(qu);
@@ -60,8 +63,9 @@ async function getData(difficulty) {
         form.appendChild(container);  
         answers.push(data.results[i].correct_answer)
     }
-            var btn = document.createElement("BUTTON");   
+            var btn = document.createElement("button");   
             btn.setAttribute("type", "submit")
+            btn.setAttribute("id", "butt")
             btn.innerHTML = "Submit";              
             form.appendChild(btn); 
     
