@@ -1,3 +1,4 @@
+
 body {
   margin: auto;
   /* display: grid; */
@@ -66,6 +67,12 @@ button {
   font-size: 1rem;
 }
 #form #butt {
+<<<<<<< HEAD
   max-width: 110px;
   margin: 0;
+=======
+    max-width: 110px; 
+    margin: 0;
+
+>>>>>>> 8add610f3a5b761db951b5b5020df62b7eb6e86e
 }
