@@ -1,53 +1,49 @@
-body{
-    margin: auto; 
-    /* display: grid; */
-    text-align:center;
-    background: rgb(238, 238, 238);
-    font-family: 'Heebo', sans-serif;
-    color: #8d44b6;
-    
+body {
+  margin: auto;
+  /* display: grid; */
+  text-align: center;
+  background: dodgerblue;
+  /* font-family: 'Heebo', sans-serif; */
+  font-family: "Frank Ruhl Libre, Georgia,serif";
+  color: #8d44b6;
 }
 
-h1{
-    Color: #f452af;
-    font-size: 4rem;
-    text-align: center;
-    padding: 1px;
-    margin: 0.5%;
-
+h1 {
+  color: #f452af;
+  font-size: 4rem;
+  text-align: center;
+  padding: 1px;
+  margin: 0.5%;
 }
 h4 {
-    color:rgb(87, 84, 84);
-    font-size: 1.5rem;
-    margin: 1px;
+  color: black;
+  font-size: 1.5rem;
+  margin: 1px;
 }
 
-
-#form{
-    /* background-color: rgb(228, 226, 226); */
-    /* margin-left: 20%;
+#form {
+  /* background-color: rgb(228, 226, 226); */
+  /* margin-left: 20%;
     margin-right: 20%;  */
-    padding: 3%;
-    /* padding-left: 2%;
+  padding: 3%;
+  /* padding-left: 2%;
     padding-right: 20%;  */
-    font-size: 1rem;
-    text-align: left;
-    margin: auto;
-    max-width: 600px;
-    display:grid;
-    /* background-color: white; */
-    row-gap: 1%;
+  font-size: 1.2rem;
+  text-align: left;
+  margin: auto;
+  max-width: 600px;
+  display: grid;
+  /* background-color: white; */
+  row-gap: 1%;
 }
 
 #form > label {
-    background-color: white; 
-    padding: 5% 5% 5% 5%;
-    /* padding-left:7%; */
-    border-radius: .5rem;
-    /* padding-left: 10%;
+  background-color: white;
+  padding: 5% 5% 5% 5%;
+  /* padding-left:7%; */
+  border-radius: 0.5rem;
+  /* padding-left: 10%;
     text-indent: 1%; */
-    
-    
 }
 
 /* #form > question {
@@ -56,21 +52,20 @@ h4 {
 } */
 
 input {
-    color: rgb(87, 84, 84);
+  color: rgb(87, 84, 84);
 }
 
 button {
-    background-color:#f8de41;
-    color: 	#f452af;
-    border-radius: .5rem;
-    padding: 1rem;
-    margin: 0.5rem;
-    font-weight: 700;
-    border: 0;
-    font-size: 1rem;
+  background-color: #f8de41;
+  color: #f452af;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  font-weight: 700;
+  border: 0;
+  font-size: 1rem;
 }
 #form #butt {
-    max-width: 110px; 
-    margin: 0;
-
+  max-width: 110px;
+  margin: 0;
 }
