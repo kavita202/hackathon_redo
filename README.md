@@ -16,4 +16,4 @@ In a group of 3, we worked on using Fetch to retrive questions from a trivia dat
 Additional functionality allows user to select the difficulty of their questions and styling using CSS.<br>
 Vanilla JS used to collate results and give feedback on each question<br>
 Styled using a google forms layout color palette from the original trivia game<br>
-[Link to site](https://kavita202.github.io/hackathon_redo/)
+[Link to site](https://relaxed-bhabha-a07abd.netlify.app
